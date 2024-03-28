@@ -10,6 +10,7 @@ int main() {
 
     printf("Ingrese la nota del segundo parcial: ");
     scanf("%d", &segundoParcial);
+    
     printf("----------------------------------------------------------------\n");
 
     printf("La nota del primer parcial es: %d\n", primerParcial);

@@ -2,7 +2,7 @@
 
 int main (){
 
-    float HorasTrabajadas,costo, TasaImpuesto,total;
+    float HorasTrabajadas,costo,total;
 
     printf("Ingrese las horas trabajadas: ");
     scanf("%f", &HorasTrabajadas);
