@@ -1,7 +1,8 @@
 {
     "cmake.configureOnOpen": true,
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "Ejemplo if 2.C": "cpp"
     }
 }
 

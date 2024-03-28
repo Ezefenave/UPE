@@ -18,30 +18,32 @@ Fin
 
 int main(){
     
-    int horastrabajadas;
-    int tarifa;
-    int tasaiimpues;
-    int pagabruta;
-    int impuestosaplicados;
-    int pagoneto;
+    float horastrabajadas;
+    float tarifa;
+    float tasaiimpues;
+    float pagabruta;
+    float impuestosaplicados;
+    float pagoneto;
 
-    printf("Ingrese la cantidad trabajadas: ");
-    scanf ("%d",&horastrabajadas);
+    printf("Ingrese la cantidad de horas trabajadas: ");
+    scanf ("%f",&horastrabajadas);
     
     printf("Ingrese el valor de la tarifa: $ ");
-    scanf ("%d/n",&tarifa);
+    scanf ("%f",&tarifa);
     
     printf("Ingrese el valor de la tasa de impuestos:  ");
-    scanf ("%d/n",&tasaiimpues);
-    
-    pagabruta = horastrabajadas*tarifa;
-    printf("El valor de la paga bruta es: $ %d\n", pagabruta);
+    scanf ("%f",&tasaiimpues);
 
-    impuestosaplicados = pagabruta*tasaiimpues / 100;
-    printf("El valor de los impuestos aplicados es de: $%d\n", impuestosaplicados);
+    printf("----------------------------------------------------------------\n");
+    
+    pagabruta = horastrabajadas * tarifa;
+    printf("El valor de la paga bruta es: $ %2.f\n", pagabruta);
+
+    impuestosaplicados = (pagabruta * tasaiimpues) / 100;
+    printf("El valor de los impuestos aplicados es de: $ %2.f\n", impuestosaplicados);
     
     pagoneto = pagabruta-impuestosaplicados;
-    printf("El valor del pago neto es de : $%d", pagoneto);
+    printf("El valor del pago neto es de : $%2.f", pagoneto);
 
     return 0;
 }
