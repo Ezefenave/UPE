@@ -23,7 +23,7 @@ int main() {
     if (promedioParcial >= 7) {
         printf("Felicidades, promocionaste la materia.\n");
     } else {
-        printf("Debes rendir parcial.\n");
+        printf("Debes rendir final.\n");
     }
     
     return 0;
