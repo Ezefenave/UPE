@@ -2,17 +2,16 @@
 //While
 int main(){
     int numero;
-    int contador;
-    
-    contador = 0;
 
     printf("Ingrese un numero: ");
     scanf("%d",&numero);
 
-while (contador <= 10)
-{
-    contador++;
-    printf("%d", contador);
-}
-    return 0;
+    while (numero < 10)
+    {
+        numero++;
+        printf("%d ", numero);
+    }
+    printf("\n");
+    printf("Fuera del while\n");
+        return 0;
 }
