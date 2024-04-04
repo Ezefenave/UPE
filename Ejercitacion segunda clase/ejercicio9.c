@@ -26,13 +26,13 @@ int main(){
     float pagoneto;
 
     printf("Ingrese la cantidad de horas trabajadas: ");
-    scanf ("%f",&horastrabajadas);
+    scanf ("%.2f"",&horastrabajadas);
     
     printf("Ingrese el valor de la tarifa: $ ");
-    scanf ("%f",&tarifa);
+    scanf ("%.2f"",&tarifa);
     
     printf("Ingrese el valor de la tasa de impuestos:  ");
-    scanf ("%f",&tasaiimpues);
+    scanf ("%.2f"",&tasaiimpues);
 
     printf("----------------------------------------------------------------\n");
     
