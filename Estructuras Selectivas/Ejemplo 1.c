@@ -7,10 +7,10 @@ int main(){
     int numero2;
     
     printf("Ingrese un numero: ");
-    scanf("%d",&numero1);
+    scanf("%f",&numero1);
 
     printf("Ingrese el numero hasta el cual quiera iterar: ");
-    scanf("%d",&numero2);
+    scanf("%f",&numero2);
 
     while(numero1 < numero2) {
         if(numero1%2 == 0){

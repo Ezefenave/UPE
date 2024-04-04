@@ -8,10 +8,10 @@ int main(){
     char caracterIngresado;
 
     printf("Ingrese un numero: ");
-    scanf ("%d",&primerNumero);
+    scanf ("%f",&primerNumero);
                                             //De esta manera puedo solicitar numeros
     printf("Ingrese otro numero: ");
-    scanf ("%d",&segundoNumero);
+    scanf ("%f",&segundoNumero);
 
     resultadoSuma = primerNumero + segundoNumero; 
 
