@@ -2,16 +2,13 @@
 
 int main(){
     int numero = 0;
-    int contador = 0;
+    int acumulador = 0;
 
-    for (int i= 0; i <5; i++){
+    for (int i= 0; i < 5; i++){
+        acumulador = acumulador + numero;
+        printf("El valor incrementado es: %d\n", acumulador); 
         printf("Ingrese un numero: ");
         scanf("%d", &numero);
-
-        contador = numero + numero + numero + numero + numero;
     }
-    
-    printf("El numero es: %d", contador);
-
     return 0;
 }
