@@ -6,10 +6,10 @@ int main() {
     float total; 
 
     printf("Ingrese la cantidad de horas trabajadas: ");
-    scanf("%.2f"", &horasTrabajadas);
+    scanf("%f", &horasTrabajadas);
     
     printf("Ingrese el costo por hora: ");
-    scanf("%.2f"", &costoHora);
+    scanf("%f", &costoHora);
 
     if (horasTrabajadas >= 10) {
         total = horasTrabajadas * costoHora;
