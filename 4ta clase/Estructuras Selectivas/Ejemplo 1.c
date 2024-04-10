@@ -11,10 +11,8 @@ int main() {
 
     printf("Ingrese el numero hasta el cual quiera iterar: ");
     scanf("%f", &numero2);
-
     
     while (numero1 <= numero2) {
-        
         if ((int)numero1 % 2 == 0) { 
             printf("%f\n", numero1);
         }
