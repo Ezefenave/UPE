@@ -5,10 +5,11 @@ int main(){
     int acumulador = 0;
 
     for (int i= 0; i < 5; i++){
-        acumulador = acumulador + numero;
-        printf("El valor incrementado es: %d\n", acumulador); 
         printf("Ingrese un numero: ");
         scanf("%d", &numero);
+        
+        acumulador = acumulador + numero;
+        printf("El valor incrementado es: %d\n", acumulador); 
     }
     return 0;
 }
