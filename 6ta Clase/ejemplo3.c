@@ -9,7 +9,7 @@ int main(){
     int valor = 0;
     int maximo = 0;
     int minimo = 0;
-    int esPrimerValor = 1;
+    int flag = 0;
     int contador = 0;
     int acumulador = 0;
     float promedio = 0;
@@ -25,11 +25,11 @@ int main(){
 
         printf("El valor ingresado es de %d\n", valor); 
 
-        if(esPrimerValor==1){
+        if(flag==0){
             maximo = valor;
             minimo = valor;
             printf("\nSe guardo el primer valor igual a: %d\n", valor);
-            esPrimerValor = 0;
+            flag = 1;
         }
 
         if(valor > maximo){
