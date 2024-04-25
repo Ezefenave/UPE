@@ -13,7 +13,7 @@ int main(){
     printf("Ingrese otro numero: ");
     scanf ("%f",&segundoNumero);
 
-    resultadoSuma = primerNumero + segundoNumero; 
+    resultadoSuma = primerNumero + segundoNumero;  //De esta manera se hacen las operaciones del codigo
 
     printf("El resultado de la suma de esos numeros es: %d\n", resultadoSuma); 
 
