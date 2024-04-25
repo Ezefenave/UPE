@@ -3,14 +3,14 @@
 1. Teniendo en cuenta que a= false, b= true, c = false, d= false. Evaluen las siguiente expresion logica y seleccione su resultado -> !(5<3)&& a || !(d || c).
 
 a. false
-b. true -
+b. true 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 2. Teniendo en cuenta la siguiente secuencia de instrucciones indique los valores que obtienen cada una de las variable:
 
 int X = 2
-int Y = X + X = -4-
-Y = Y + 2 = -6-
-X = Y * X = -12-
+int Y = X + X = 
+Y = Y + 2 = 
+X = Y * X = 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 3. Considerando los siguientes valores char letra 1 = 'C'; char letra 2 = 'D';(Nota: En el codigo ASCII C=67, D=68). Indique la impresión en pantalla.
 
