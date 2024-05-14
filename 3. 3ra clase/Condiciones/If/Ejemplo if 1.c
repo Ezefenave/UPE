@@ -6,10 +6,10 @@ int main() {
     int promedioParcial;
 
     printf("Ingrese la nota del primer parcial: ");
-    scanf("%.2f"", &primerParcial);
+    scanf("%.2f", &primerParcial);
 
     printf("Ingrese la nota del segundo parcial: ");
-    scanf("%.2f"", &segundoParcial);
+    scanf("%.2f", &segundoParcial);
     
     printf("----------------------------------------------------------------\n");
 

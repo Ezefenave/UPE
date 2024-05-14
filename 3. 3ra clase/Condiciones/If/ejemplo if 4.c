@@ -6,10 +6,10 @@ int main(){
     int segundoParcial;
 
     printf("Ingrese la nota del primer parcial: ");
-    scanf("%.2f"", &primerParcial);
+    scanf("%.2f", &primerParcial);
 
     printf("Ingrese la nota del segundo parcial: ");
-    scanf("%.2f"", &segundoParcial);
+    scanf("%.2f", &segundoParcial);
 
     if (!(primerParcial < 7)){
     printf("Negado\n");

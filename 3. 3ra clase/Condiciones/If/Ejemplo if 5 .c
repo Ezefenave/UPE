@@ -5,7 +5,7 @@ int main() {
     int modulo;
 
     printf("Ingrese un numero: ");
-    scanf("%.2f"", &numero);
+    scanf("%.2f", &numero);
 
     modulo = numero % 2;
 
