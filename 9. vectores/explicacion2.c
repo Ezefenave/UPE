@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    char nombre[15];
-    char apellido[15];
+    char primeraManera[9] = "Ezequiel";
+    char segundaManera[9];
 
-    printf("Ingrese su nombre: ");
-    fgets(nombre, sizeof(nombre), stdin);
+    segundaManera[0] = 'E';
+    segundaManera[1] = 'Z';
+    segundaManera[2] = 'e';
+    segundaManera[3] = 'q';
+    segundaManera[4] = 'u';
+    segundaManera[5] = 'i';
+    segundaManera[6] = 'e';
+    segundaManera[7] = 'l';
+    segundaManera[8] = '\0'; 
 
-    for (int i = 0; nombre[i] != '\0'; i++){ //Inicio un bucle que recorra el vector hasta encontrar el '\0' que me sirve para darle indice a los caracteres dentro de mi funcion
-        if (nombre[i] == '\n'){ 
-            nombre[i] = '\0'; //Busco el indice donde se almaceno el salto de linea y lo remplazo por el '\0'
-        }
-    }
+    printf("El nombre escrito es: %s\n", primeraManera); 
+    printf("El nombre escrito es: %s\n", segundaManera);
 
-    printf("Ingrese su apellido: ");
-    fgets(apellido, sizeof(apellido), stdin);
-
-    printf("Su nombre y apellido son: %s %s",nombre, apellido);
+    return 0;
 }
