@@ -33,7 +33,7 @@ int main() {
             limiteIntentos--; 
             printf("Intento fallido. Te quedan %d intentos\n", limiteIntentos); //Le muestro al usuario la cantidad de intentos restantes
             
-        if(banderaPista == 0){
+        if(banderaPista == 0){ //Coloco esta bandera para le solicite al usuario la confirmacion una sola vez
             printf("Desea obtener una pista?. Ingrese s para obtener una pista: ");
             scanf("%c", &confirmacion);
             getchar(); //Con el getchar logro que solo
